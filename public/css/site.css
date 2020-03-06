@@ -1,0 +1,402 @@
+.a-nav{
+	background-color: white;
+}
+
+.navbar-brand{
+	color: rgb(245, 95,0);
+}
+
+svg#FATlogo{
+	width: 100px;
+	height: 60px;
+}
+
+.nav-item a{
+	color: black;
+}
+
+#navbarCollapse{
+	background-color: white;
+}
+
+.btn-default{
+	background-color: rgb(245, 95, 0);
+}
+
+.btn-default:hover{
+	background-color: blue; 
+}
+
+.btn{
+	border-color: rgb(245, 95,0);
+}
+
+.instagram{
+	background-color: #8a3ab9;
+}
+
+.nav-menu{
+	list-style: none;
+	text-align: center;
+}
+
+.c-nav{
+	display: none;
+}
+
+.hero-section{
+	padding-top: 90px; 
+}
+
+
+.hero-title{
+	font-size: 75px;
+}
+
+.hero-image-r{
+		width: 130%;
+}
+
+.hero-body{
+	font-size: 30px
+}
+
+.section-b{
+	background-color: #ffc099;
+}
+
+.card{
+	background-color: #ffc099;
+}
+
+.section-title{
+	font-size: 70px;
+}
+
+.section-info{
+	font-size: 27px;
+}
+
+.section-list{
+	font-size: 20px;
+}
+
+a{
+	color: black;
+}
+
+.section-c{
+	 background-color: white;
+}
+
+.footer-section{
+	background-color: #ffc099;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-footer{
+	text-align: center;
+}
+
+button{
+	background-color: transparent;
+}
+
+.accountLink{
+	color: black;
+	border-color: rgb(245, 95,0);
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 49%;
+}
+
+.btn:hover {
+  background-color: #ffc099;
+}
+
+.accountContent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+.footerContent {
+  color: black;
+  display: none;
+  padding: 20px 20px;
+  height: 100%;
+  font-size: 20px;
+}
+
+.dead-footer{
+	display: none;
+}
+
+.auth-head{
+	text-align: center;
+	border-width: thin;
+	border-bottom-color: rgb(245,95,0);
+	border-bottom-style: solid;
+}
+
+.auth-brand{
+	font-size: 75px;
+	color: rgb(245,95,0); 
+}
+
+.auth-brand:hover{
+	text-decoration: none;
+	color: none;
+}
+
+.card-header{
+	text-align: center;
+}
+
+.card-title{
+	font-size: 30px;
+	color: rgb(245,95,0); 
+}
+
+.card-greeting{
+	font-size: 2vw;
+}
+
+.c-dashboard-nav{
+	display: none;
+}
+
+.dashboard-footer{
+	display: none;
+}
+
+.d-nav{
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 5px; 
+}
+
+/* Side navigation in dashboard.blade.php*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: rgb(245,95,0);
+}
+
+.dashboard-content{
+		margin-top: 50px;
+}
+
+.icon-bar {
+	height:30%;
+    width:30%;
+	display:flex;
+	justify-content: space-between;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.section-agreement{
+	display: flex;
+	justify-content: center;
+}
+
+.section-body{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.dashboard-footer-section{
+		background-color: #ffc099; 
+	}
+
+.panel{
+	display: none;
+	background-color: rgb(245,95,0);
+}
+.accordion{
+	background-color: rgb(245,95,0);
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+
+@media only screen and (max-width: 500px){
+	.c-nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	}
+
+	.uc-nav{
+		display: none;
+	}
+
+	.hero-section{
+		padding-top: 120px;
+	}
+
+	.hero-title{
+	font-size: 50px;
+	}
+
+	.hero-body{
+	font-size: 23px
+}
+
+	.hero-image{
+		display: none;
+		width: 130%;
+	}
+
+	.section-title{
+		font-size: 45px;
+	}
+
+	.section-info{
+		font-size: 20px;
+	}
+
+	.section-list{
+	font-size: 17px;
+	}
+
+	#chkbxagreement{
+		font-size: 12px;
+	}
+
+	.section-a{
+		padding-top: 120px;
+	}
+
+	.section-b{
+		background-color: #ffc099;
+		padding-top:120px;
+	}
+
+	.estimator-form{
+		margin-top: 1.5rem;		
+	}
+	
+	.dead-footer{
+		display: block;
+		text-align: center;
+	}
+
+	.c-dashboard-nav{
+	display: flex;
+	}
+
+	.dashboard-footer{
+		display: block;
+	}
+
+	.uc-dashboard-nav{
+		display: none;
+	}
+
+	.footer-section{
+		display: none;
+	}
+
+	.dashboard-footer-section{
+		display: none;
+	}
+
+	.dashboard-footer {
+		overflow: hidden;
+		background-color: white;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		border-top-style: solid;
+		border-top-width: thin;
+		border-top-color: black;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.dashboard-footer a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+
+	.dashboard-footer a:hover {
+	background: #f1f1f1;
+	color: black;
+	}
+
+	.dashboard-footer a:active {
+	background-color: #4CAF50;
+	color: white;
+	}
+
+	.m-footerBtn a:active{
+		background-color: black;
+	}
+
+
+}
